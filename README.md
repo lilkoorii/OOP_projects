@@ -1,2 +1,4 @@
 # OOP_projects-
-OOP Projects
+Name: Maria Loschakova
+Group number: 10-2
+Specialty: Design (DEiVI)
