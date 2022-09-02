@@ -1,4 +1,2 @@
-# OOP_projects-
-Name: Maria Loschakova
-Group number: 10-2
-Specialty: Design (DEiVI)
+# OOP_projects
+Мария Лощакова, 10-2, 2 курс ДЭИВИ
