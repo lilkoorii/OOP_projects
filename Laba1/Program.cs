@@ -210,8 +210,6 @@ namespace Laba1
                 Console.WriteLine();
             }
 
-
-
             // Неявно типизированная переменная
 
             var zz = new object[0];
@@ -234,8 +232,6 @@ namespace Laba1
             (int row, int col) = MyMethod();
 
             var val1 = tuple.Item1;
-
-            // Переменная _ ??
 
             // Сравнение двух кортежей
 

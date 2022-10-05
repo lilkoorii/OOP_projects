@@ -1,0 +1,8 @@
+C:\Users\Maria\OOP_projects\Laba3\bin\Debug\Laba3.exe.config
+C:\Users\Maria\OOP_projects\Laba3\bin\Debug\Laba3.exe
+C:\Users\Maria\OOP_projects\Laba3\bin\Debug\Laba3.pdb
+C:\Users\Maria\OOP_projects\Laba3\obj\Debug\Laba3.csproj.AssemblyReference.cache
+C:\Users\Maria\OOP_projects\Laba3\obj\Debug\Laba3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Maria\OOP_projects\Laba3\obj\Debug\Laba3.csproj.CoreCompileInputs.cache
+C:\Users\Maria\OOP_projects\Laba3\obj\Debug\Laba3.exe
+C:\Users\Maria\OOP_projects\Laba3\obj\Debug\Laba3.pdb
