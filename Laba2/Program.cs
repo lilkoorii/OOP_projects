@@ -41,13 +41,20 @@ namespace OOP_Lab3
             get; set;
         }
 
-        public int Mileage
+        public int Mileage      //Логика при установлении значения свойства Mileage
         {
-            get; set;
+            set
+            {
+                if (value < 1)
+                    Console.WriteLine("Пробег должен быть в диапазоне от 1 до 120");
+                else
+                    Mileage = value;
+            }
+            get { return Mileage; }
         }
 
         static string Type;
-        /* static Bus()            // Статический конструктор
+        static Bus()            // Статический конструктор
         {
             Type = "Автобус";
         }
@@ -63,9 +70,9 @@ namespace OOP_Lab3
         }
         public Bus(string n, short m, int c)
         {
-            Name = n;
-            BusNumber = m;
-            RouteNumber = c;
+            this.Name = n;
+            this.BusNumber = m;
+            this.RouteNumber = c;
         }
         public Bus(string name, short bus, int route, string brand, short year, int mileage)
         {
@@ -75,12 +82,16 @@ namespace OOP_Lab3
             Brand = brand;
             ExpluatationYear = year;
             Mileage = mileage;
-        } */
+        }
         public override string ToString()
         {
             return string.Format("Водитель: {0} Номер автобуса: {1} Номер маршрута: {2} Бренд: {3} Год начала экспл.: {4} Пробег: {5}", Name, BusNumber, RouteNumber, Brand, ExpluatationYear, Mileage);
         }
 
+        static internal void PrintType()
+        {
+            Console.WriteLine("Метод PrintType");
+        }
     }
         
     public partial class Works
@@ -104,11 +115,9 @@ namespace OOP_Lab3
         {
             Bus[] buses = new Bus[3]; //вызов массива конструкторов
 
-            /* buses[0] = new Bus("Иванович А.В", 1022) { RouteNumber=22, Brand="МАЗ", ExpluatationYear=2007, Mileage=100500 };
+            buses[0] = new Bus("Иванович А.В", 1022) { RouteNumber=22, Brand="МАЗ", ExpluatationYear=2007, Mileage=100500 };
             buses[1] = new Bus("Пацей В.В", 1153, 53) { Brand="БелМаш", ExpluatationYear=2014, Mileage=10000};
-            buses[2] = new Bus("Бондарь П.П") { BusNumber=1046, RouteNumber=46, Brand="БелМаш", ExpluatationYear=2011, Mileage=200000 }; */
-            Bus bus1 = new Bus();
-            bus1.W = 12;
+            buses[2] = new Bus("Бондарь П.П") { BusNumber=1046, RouteNumber=46, Brand="БелМаш", ExpluatationYear=2011, Mileage=200000 };
 
             Console.WriteLine("\nБаза данных автобусов: \n");
             foreach (Bus bus in buses)
@@ -131,13 +140,7 @@ namespace OOP_Lab3
             {
                 Console.WriteLine(bus.ToString());
             }
-
-
-
-            //ToString служит для получения строкового представления данного объекта. Для базовых типов просто будет выводиться их строковое значение:
-            //GetHashCode позволяет возвратить некоторое числовое значение, которое будет соответствовать данному объекту или его хэш-код.
-            //Метод GetType позволяет получить тип данного объекта:
-            //Метод Equals позволяет сравнить два объекта на равенство:
+            Bus.PrintType();
         }
     }
 }
