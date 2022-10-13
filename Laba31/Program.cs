@@ -17,7 +17,7 @@ namespace Laba31
         internal string company;
         internal class Developer
         {
-            static readonly string Name = "Loschakova Maria Pavlovna";
+            public readonly string Name = "Loschakova Maria Pavlovna";
             public short ID;
             public string Department;
 
@@ -26,6 +26,7 @@ namespace Laba31
                 ID = iD;
                 Department = department;
             }
+            public List Production = new List(9113, "CoolCompany");   // Объект Production
         }
         //Конструкторы
         public List()
@@ -164,15 +165,14 @@ namespace Laba31
             Console.WriteLine("Добавление элементов из 2 в 1: ");
             List res3 = new List();
             res3 = list1 < list2; //Добавление элементов из списка 2 в 1
-            List Production = new List(9113, "CoolCompany");
-            Console.WriteLine($"Объект Production: {Production.ID}, {Production.company}");
             List.Developer dev1 = new List.Developer(9113, "Web Design");
-            Console.WriteLine($"Объект класса Developer: {dev1.ID}, {dev1.Department}");
+            Console.WriteLine($"Объект Production: {dev1.Production.ID}, {dev1.Production.company}");
+            Console.WriteLine($"Объект класса Developer: {dev1.ID}, {dev1.Department}, {dev1.Name}");
         }
     }
-    static class StatisticOperation
+    static class StatisticOperation  //Статический класс с методами
     {
-        public static int Sum(List list1)
+        public static int Sum(this List list1)
         {
             int sum = 0;
             for (int i = 0; i <= 4; i++)
@@ -181,7 +181,7 @@ namespace Laba31
             }
             return sum;
         }
-        public static int Dif(List list1)
+        public static int Dif(this List list1)
         {
             int max = 1000;
             int min = 0;
