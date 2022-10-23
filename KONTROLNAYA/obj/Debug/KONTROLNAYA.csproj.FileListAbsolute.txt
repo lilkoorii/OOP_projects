@@ -1,0 +1,8 @@
+C:\Users\Maria\OOP_projects\KONTROLNAYA\bin\Debug\KONTROLNAYA.exe.config
+C:\Users\Maria\OOP_projects\KONTROLNAYA\bin\Debug\KONTROLNAYA.exe
+C:\Users\Maria\OOP_projects\KONTROLNAYA\bin\Debug\KONTROLNAYA.pdb
+C:\Users\Maria\OOP_projects\KONTROLNAYA\obj\Debug\KONTROLNAYA.csproj.AssemblyReference.cache
+C:\Users\Maria\OOP_projects\KONTROLNAYA\obj\Debug\KONTROLNAYA.csproj.SuggestedBindingRedirects.cache
+C:\Users\Maria\OOP_projects\KONTROLNAYA\obj\Debug\KONTROLNAYA.csproj.CoreCompileInputs.cache
+C:\Users\Maria\OOP_projects\KONTROLNAYA\obj\Debug\KONTROLNAYA.exe
+C:\Users\Maria\OOP_projects\KONTROLNAYA\obj\Debug\KONTROLNAYA.pdb

@@ -28,6 +28,24 @@ namespace Laba4
             Console.WriteLine(tennisBall.ToString());
 
             List<Inventory> list = new List<Inventory> { new Bench(180, 837362, 6), new Bars(160, 385762, 9) };
+            Ball ball1 = new Ball();
+            Tennis? tennis = ball1 as Tennis;
+            if (ball1 is Tennis tennis1)
+            {
+                Console.WriteLine(tennis1.tennisType);
+            }
+            else
+            {
+                Console.WriteLine("Преобразование не допустимо");
+            }
+            if (tennis == null)
+            {
+                Console.WriteLine("Преобразование прошло неудачно");
+            }
+            else
+            {
+                Console.WriteLine(tennis.tennisType);
+            }
 
             Printer printer = new Printer();
             foreach (Inventory v in list)

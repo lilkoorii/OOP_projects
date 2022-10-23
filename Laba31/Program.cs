@@ -20,14 +20,16 @@ namespace Laba31
             public readonly string Name = "Loschakova Maria Pavlovna";
             public short ID;
             public string Department;
+            public List Production = new List(9113, "CoolCompany");   // Объект Production
 
             public Developer(short iD, string department)
             {
                 ID = iD;
                 Department = department;
             }
-            public List Production = new List(9113, "CoolCompany");   // Объект Production
+            
         }
+       
         //Конструкторы
         public List()
         {
