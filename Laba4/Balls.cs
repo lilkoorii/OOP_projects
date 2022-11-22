@@ -18,13 +18,13 @@ namespace Laba4
         public Ball(string brand, int gym, int Month, string Color)
         {
             this.Brand = brand;
-            this.gymNumber = gym;
+            this.GymNumber = gym;
             this.Month = Month;
             this.Color = Color; // Цвет мяча (синего, желтого...)
         }
         public override string ToString()
         {
-            return "Мячик " + Color + " цвета из зала номер " + gymNumber + ", завезенный в " + Month + " месяце выпущен брендом " + Brand;
+            return "Мячик " + Color + " цвета из зала номер " + GymNumber + ", завезенный в " + Month + " месяце выпущен брендом " + Brand;
         }
     }
     class BasketBall : Ball
@@ -42,13 +42,13 @@ namespace Laba4
         public BasketBall(string brand, int gym, int Month, string basket)
         {
             this.Brand = brand;
-            this.gymNumber = gym;
+            this.GymNumber = gym;
             this.Month = Month;
             this.basketType = basket; // Для маленьких, средних, больших корзин...
         }
         public override string ToString()
         {
-            return "Баскетбольный мяч для " + basketType + " корзин из зала номер" + gymNumber + ", завезённый в зал в " + Month + " месяце был выпущен брендом " + Brand;
+            return "Баскетбольный мяч для " + basketType + " корзин из зала номер" + GymNumber + ", завезённый в зал в " + Month + " месяце был выпущен брендом " + Brand;
         }
     }
     sealed class Tennis : Ball // Sealed класс
@@ -66,13 +66,13 @@ namespace Laba4
         {
             this.Number = Number;
             this.tennisType = tennisType;
-            this.gymNumber = gym;
+            this.GymNumber = gym;
             this.Month = Month;
             this.Brand = brand;
         }
         public override string ToString()
         {
-            return "Теннисный набор бренда " + Brand + " из зала номер " + gymNumber + ", завезённый в " + Month + " месяце содержит ракетки для " + tennisType + " тенниса и имеет в комплекте " + Number + " мячика/ов";
+            return "Теннисный набор бренда " + Brand + " из зала номер " + GymNumber + ", завезённый в " + Month + " месяце содержит ракетки для " + tennisType + " тенниса и имеет в комплекте " + Number + " мячика/ов";
         }
     }
 }

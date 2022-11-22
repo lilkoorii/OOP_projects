@@ -17,12 +17,12 @@ namespace Laba4
         public Bars(int weight, int gym, int Month)
         {
             this.personWeight = weight;
-            this.gymNumber = gym;
+            this.GymNumber = gym;
             this.Month = Month;
         }
         public override string ToString()
         {
-            return "Брусья, выдерживающие вес " + personWeight + "кг из зала номер " + gymNumber + ", завезены в зал в " + Month + " месяце.";
+            return "Брусья, выдерживающие вес " + personWeight + "кг из зала номер " + GymNumber + ", завезены в зал в " + Month + " месяце.";
         }
     }
 }

@@ -6,21 +6,22 @@ using System.Threading.Tasks;
 
 namespace Laba4
 {
-    public abstract class Inventory //Абстрактный класс
+    internal abstract class Inventory //Абстрактный класс
     {
-        public int gymNumber; // Номер зала
+        public Ball Ball1; // Композиция - Inventory содержит объект класса Ball
+        public int GymNumber; // Номер зала
         public int Month; // Когда завезли в зал (месяц 1-12)
 
         public Inventory() { }
 
         protected Inventory(int gym, int month)
         {
-            gymNumber = gym;
+            GymNumber = gym;
             Month = month;
         }
         public override string ToString() //Переопределение метода ToString
         {
-            return "Инвентарь зала номер " + gymNumber + ", завезённый в " + Month + " месяце 2021 года.";
+            return "Инвентарь зала номер " + GymNumber + ", завезённый в " + Month + " месяце 2021 года.";
         }
         public abstract bool DoClone(); // Одноименный метод
         public virtual void DoSomething() // Виртуальный метод

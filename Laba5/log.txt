@@ -1,0 +1,7 @@
+
+11.11.2022 14:54:44 
+INFO:
+Laba5.ShapeException: Ошибка! Неккоректно введена форма:
+   at Laba5.Mat.set_Shape(String value) in C:\Users\Maria\OOP_projects\Laba5\Mat.cs:line 27
+   at Laba5.Mat..ctor(String name, String shape, String composition, Sum sum, Int32 dens) in C:\Users\Maria\OOP_projects\Laba5\Mat.cs:line 33
+   at Laba5.Program.Main(String[] args) in C:\Users\Maria\OOP_projects\Laba5\Program.cs:line 17

@@ -11,7 +11,7 @@ namespace Laba5
 
     public interface IMakeGym
     {
-        public void MakeGym(IGymAssembly gymAssembling); //gym assembly - создание зала
+        public void MakeGym(IGymAssembly gymAssembling); //Gym assembly - создание зала
     }
 
     public interface IGymAssembly

@@ -12,11 +12,11 @@ namespace Laba4
     {
         static void Main(string[] args)
         {
-            Bench bench = new Bench(100, 837362, 6); //int Height, int gymNumber, int Month
-            Ball ball = new Ball("Mikasa", 374564, 7, "жёлтого в полоску"); //string Brand, int gymNumber, int Month, string Color
-            BasketBall basketBall = new BasketBall("Nike", 792955, 8, "средних"); //string Brand, int gymNumber, int Month, string basketType
-            Bars bars = new Bars(100, 385762, 9); //int personWeight, int gymNumber, int Month
-            Tennis tennisBall = new Tennis(3, "настольного", 100247, 10, "Wilson"); //int Number, string tennisType, int gymNumber, int Month, string Brand
+            Bench bench = new Bench(100, 837362, 6); //int Height, int GymNumber, int Month
+            Ball ball = new Ball("Mikasa", 374564, 7, "жёлтого в полоску"); //string Brand, int GymNumber, int Month, string Color
+            BasketBall basketBall = new BasketBall("Nike", 792955, 8, "средних"); //string Brand, int GymNumber, int Month, string basketType
+            Bars bars = new Bars(100, 385762, 9); //int personWeight, int GymNumber, int Month
+            Tennis tennisBall = new Tennis(3, "настольного", 100247, 10, "Wilson"); //int Number, string tennisType, int GymNumber, int Month, string Brand
 
             Console.WriteLine(bench.ToString());
             Console.WriteLine(ball.ToString());
