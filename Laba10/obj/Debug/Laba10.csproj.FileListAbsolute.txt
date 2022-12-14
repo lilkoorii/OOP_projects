@@ -1,0 +1,8 @@
+C:\Users\Maria\OOP_projects\Laba10\bin\Debug\Laba10.exe.config
+C:\Users\Maria\OOP_projects\Laba10\bin\Debug\Laba10.exe
+C:\Users\Maria\OOP_projects\Laba10\bin\Debug\Laba10.pdb
+C:\Users\Maria\OOP_projects\Laba10\obj\Debug\Laba10.csproj.AssemblyReference.cache
+C:\Users\Maria\OOP_projects\Laba10\obj\Debug\Laba10.csproj.SuggestedBindingRedirects.cache
+C:\Users\Maria\OOP_projects\Laba10\obj\Debug\Laba10.csproj.CoreCompileInputs.cache
+C:\Users\Maria\OOP_projects\Laba10\obj\Debug\Laba10.exe
+C:\Users\Maria\OOP_projects\Laba10\obj\Debug\Laba10.pdb

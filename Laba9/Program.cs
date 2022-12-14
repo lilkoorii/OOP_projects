@@ -11,117 +11,11 @@ using Microsoft.Win32;
 
 namespace Laba9
 {
-    public class WebResource<T> : IList<T> where T : User
-    {
-        public ConcurrentDictionary<int, T> users = new ConcurrentDictionary<int, T>();
-        public Dictionary<int, T> dict = new Dictionary<int, T>();
-        public readonly IList<T> _list = new List<T>();
-        public IEnumerator<T> GetEnumerator() //имплементация IEnumerable для корректной имплементации методов IList<T>
-        {
-            return _list.GetEnumerator();
-        }
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
-        }
-        public void Add(T item)
-        {
-            _list.Add(item);
-        }
-
-        public void Clear()
-        {
-            _list.Clear();
-        }
-
-        public bool Contains(T item)
-        {
-            return _list.Contains(item);
-        }
-
-        public void CopyTo(T[] array, int arrayIndex)
-        {
-            _list.CopyTo(array, arrayIndex);
-        }
-
-        public bool Remove(T item)
-        {
-            return _list.Remove(item);
-        }
-
-        public int Count
-        {
-            get { return _list.Count; }
-        }
-
-        public bool IsReadOnly
-        {
-            get { return _list.IsReadOnly; }
-        }
-
-        public int IndexOf(T item)
-        {
-            return _list.IndexOf(item);
-        }
-
-        public void Insert(int index, T item)
-        {
-            _list.Insert(index, item);
-        }
-
-        public void RemoveAt(int index)
-        {
-            _list.RemoveAt(index);
-        }
-
-        public T this[int index]
-        {
-            get { return _list[index]; }
-            set { _list[index] = value; }
-        }
-        public void Show()  //методы коллекции
-        {
-            foreach (var item in users)
-            {
-                Console.WriteLine(item);
-            }
-        }
-        public void ShowDict()
-        {
-            foreach (KeyValuePair<int, T> element in dict)
-                Console.WriteLine("Ключ: {0}\t\tЗначение: {1}", element.Key, element.Value);
-        }
-        public void Remove(int numb)
-        {
-            for (int i = 0; numb > 0; i++)
-            {
-                if (dict.ContainsKey(i))
-                {
-                    dict.Remove(i);
-                    numb--;
-                }
-            }
-        }
-    }
-    public class User
-    {
-        public string Name;
-
-        public User(string name)
-        {
-            this.Name = name;
-        }
-
-        public override string ToString()
-        {
-            return Name;
-        }
-    }
     class Program
     {
         public static void Ch(object sender, NotifyCollectionChangedEventArgs e)
         {
-            Console.WriteLine("Collection changed with action " + e.Action);
+            Console.WriteLine("Коллекция изменилась с действием " + e.Action);
         }
         static void Main(string[] args)
         {
@@ -139,10 +33,8 @@ namespace Laba9
             web.users.GetOrAdd(3, thrd);
             //web.players.CompleteAdding();
             web.Show();
-            Console.WriteLine("Attempt to add: " + web.users.TryAdd(4, frth));
-            Console.WriteLine("\n------after attempt to add----");
-            web.Show();
-            Console.WriteLine("\n---------after frst elem-------");
+            Console.WriteLine("Попытка дбавления: " + web.users.TryAdd(4, frth));
+            Console.WriteLine("\n------после попытки добавления:----");
             web.Show();
             web.users.Clear();
 
@@ -155,14 +47,21 @@ namespace Laba9
             Dict.dict.Add(4, frth);
             Dict.ShowDict();
             Dict.dict.Remove(1);
-            Console.WriteLine("\n---------deleted elem by key-------");
+            Console.WriteLine("\n---------удалили элемент с ключом 1-------");
             Dict.ShowDict();
             Dict.Remove(2);
-            Console.WriteLine("\n---------deleted 2 elems with the smallest keys-------");
+            Console.WriteLine("\n---------удалили 2 элемента с наименьшими ключами-------");
             Dict.ShowDict();
             Console.WriteLine("\n------------------------------------------------------");
-            Console.WriteLine("if contains key '4':" + Dict.dict.ContainsKey(4));
-            Console.WriteLine("if contains key '6':" + Dict.dict.ContainsKey(6));
+            Console.WriteLine("Содержит ли ключ '4':" + Dict.dict.ContainsKey(4));
+            Console.WriteLine("Содержит ли ключ '6':" + Dict.dict.ContainsKey(6));
+
+            WebResource<User> list = new WebResource<User>(); //коллекция List
+            list.list.Add(frst);
+            list.list.Add(scnd);
+            list.list.Add(thrd);
+            list.list.Add(frth);
+            list.ShowList();
 
 
             ObservableCollection<int> obs = new ObservableCollection<int>(); //наблюдаемая коллекция

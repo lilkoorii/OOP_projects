@@ -52,6 +52,10 @@ namespace Laba5
         }
         public void SearchDensity(int dens)
         {
+            if (dens<=0)
+            {
+                throw new SearchDensityException("Ошибка! Неккоректно введена степень надутия для поиска:", dens);
+            }
             for (int i = 0; i < ball.Count; i++)
             {
                 if (ball[i] is VolleyBall)

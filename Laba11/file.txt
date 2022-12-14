@@ -1,0 +1,2 @@
+
+Methods of class Laba11.Test with args type: Int32

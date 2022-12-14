@@ -29,7 +29,7 @@ namespace Laba8
         public void Work()
         {
             list = list.OrderBy(x => Guid.NewGuid().ToString()).ToList();
-            WorkEvent?.Invoke("Пользователь усердно работоет.........");
+            WorkEvent?.Invoke("Пользователь усердно работает.........");
 
         }
         public void Show()

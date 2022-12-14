@@ -31,7 +31,7 @@ namespace Laba5
                 balls.Display();
                 balls.Count();
                 balls.SearchTotal(new Sum(5, 50));
-                balls.SearchDensity(100);
+                balls.SearchDensity(-100);
                 //matbad.CheckForException();
             }
             catch (MyException e)

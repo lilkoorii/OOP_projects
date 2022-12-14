@@ -19,7 +19,7 @@ namespace Laba8
 
             user.Show();
 
-            user.UpgradeEvent += (string message) => Console.WriteLine(message); //лямбда-выражения с параметром message
+            user.UpgradeEvent += (string message) => Console.WriteLine(message); //лямбда-выражения и подп
 
             user.WorkEvent += (string message) => Console.WriteLine(message);
 
@@ -61,7 +61,7 @@ namespace Laba8
                 }
                 catch
                 {
-                    Console.WriteLine("!!!АШЫПКА ВВЕДИТЕ ЧИСЛО!!!");
+                    Console.WriteLine("!!!НЕТ!!! ЧИСЛО ВВЕДИТЕ!!!");
                     Console.ResetColor();
                 }
             } while (true);

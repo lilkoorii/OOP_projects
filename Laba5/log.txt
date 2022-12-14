@@ -1,5 +1,5 @@
 
-11.11.2022 14:54:44 
+24.11.2022 19:09:27 
 INFO:
 Laba5.ShapeException: Ошибка! Неккоректно введена форма:
    at Laba5.Mat.set_Shape(String value) in C:\Users\Maria\OOP_projects\Laba5\Mat.cs:line 27
