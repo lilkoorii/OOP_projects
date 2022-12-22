@@ -1,0 +1,21 @@
+14.12.2022 18:10:53
+DiskInfo:
+	Name: C:\
+	Type: Fixed
+	FileSystem: NTFS
+	FreeSpace: total - 40 GB, available - 37 GB
+	TotalSize: 464 GB
+	VolumeLabel: OS
+
+FileInfo:
+	Full way : C:\Users\Maria\OOP_projects\Laba12
+	Name: LMP.cs
+	Capacity: 5470
+	Extension: .cs
+	CreationTime: 14.12.2022 16:26:08
+
+DirInfo:
+	FilesCount: 5
+	Createon time: 01.09.2022 20:24:59
+	SubDirectories: 451
+	Parents: Maria

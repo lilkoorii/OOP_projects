@@ -53,14 +53,14 @@ namespace Laba11
     {
         static void Main(string[] args)
         {
-            string test = "Laba11.Test";
+            string test = "Laba11.Bus";
             Reflector.Name();
-            Reflector.ToFile(Reflector.GetConstructor("Laba11.Test"));
-            Reflector.ToFile(Reflector.Pub("Laba11.Test"));
-            Reflector.ToFile(Reflector.Field("Laba11.Test"));
-            Reflector.ToFile(Reflector.Interface("Laba11.Test"));
-            Reflector.ToFile(Reflector.MethodForType("Laba11.Test", "Int32"));
-            Reflector.Invoke("Laba11.Test", "ToConsole");
+            Reflector.ToFile(Reflector.GetConstructor("Laba11.Bus"));
+            Reflector.ToFile(Reflector.Pub("Laba11.Bus"));
+            Reflector.ToFile(Reflector.Field("Laba11.Bus"));
+            Reflector.ToFile(Reflector.Interface("Laba11.Bus"));
+            Reflector.ToFile(Reflector.MethodForType("Laba11.Bus", "Int32"));
+            Reflector.Invoke("Laba11.Bus", "ToConsole");
             Console.ReadKey();
         }
     }

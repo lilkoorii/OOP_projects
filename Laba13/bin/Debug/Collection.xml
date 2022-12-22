@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<ArrayOfCheck xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Check>
+    <type>Type</type>
+    <dateOfExpluatation>2020-11-12T00:00:00</dateOfExpluatation>
+    <driver>Someone</driver>
+    <brand>Cool</brand>
+    <Type>Type</Type>
+    <DateOfExpluatation>2020-11-12T00:00:00</DateOfExpluatation>
+    <totalPrice>100500</totalPrice>
+  </Check>
+  <Check>
+    <type>Type</type>
+    <dateOfExpluatation>2020-11-12T00:00:00</dateOfExpluatation>
+    <driver>Someone</driver>
+    <brand>TheCoolestOrganization</brand>
+    <Type>Type</Type>
+    <DateOfExpluatation>2020-11-12T00:00:00</DateOfExpluatation>
+    <totalPrice>200500</totalPrice>
+  </Check>
+  <Check>
+    <type>Type</type>
+    <dateOfExpluatation>2020-11-12T00:00:00</dateOfExpluatation>
+    <driver>Someone</driver>
+    <brand>Look, i can write</brand>
+    <Type>Type</Type>
+    <DateOfExpluatation>2020-11-12T00:00:00</DateOfExpluatation>
+    <totalPrice>300500</totalPrice>
+  </Check>
+</ArrayOfCheck>

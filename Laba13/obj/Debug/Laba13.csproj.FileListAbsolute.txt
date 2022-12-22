@@ -1,0 +1,11 @@
+C:\Users\Maria\OOP_projects\Laba13\bin\Debug\Laba13.exe.config
+C:\Users\Maria\OOP_projects\Laba13\bin\Debug\Laba13.exe
+C:\Users\Maria\OOP_projects\Laba13\bin\Debug\Laba13.pdb
+C:\Users\Maria\OOP_projects\Laba13\obj\Debug\Laba13.csproj.AssemblyReference.cache
+C:\Users\Maria\OOP_projects\Laba13\obj\Debug\Laba13.csproj.SuggestedBindingRedirects.cache
+C:\Users\Maria\OOP_projects\Laba13\obj\Debug\Laba13.csproj.CoreCompileInputs.cache
+C:\Users\Maria\OOP_projects\Laba13\obj\Debug\Laba13.exe
+C:\Users\Maria\OOP_projects\Laba13\obj\Debug\Laba13.pdb
+C:\Users\Maria\OOP_projects\Laba13\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Maria\OOP_projects\Laba13\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Maria\OOP_projects\Laba13\obj\Debug\Laba13.csproj.CopyComplete

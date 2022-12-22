@@ -1,0 +1,16 @@
+C:\Users\Maria\OOP_projects\Laba15\bin\Debug\Laba15.exe.config
+C:\Users\Maria\OOP_projects\Laba15\bin\Debug\Laba15.exe
+C:\Users\Maria\OOP_projects\Laba15\bin\Debug\Laba15.pdb
+C:\Users\Maria\OOP_projects\Laba15\obj\Debug\Laba14.csproj.AssemblyReference.cache
+C:\Users\Maria\OOP_projects\Laba15\obj\Debug\Laba14.csproj.SuggestedBindingRedirects.cache
+C:\Users\Maria\OOP_projects\Laba15\obj\Debug\Laba14.csproj.CoreCompileInputs.cache
+C:\Users\Maria\OOP_projects\Laba15\obj\Debug\Laba15.exe
+C:\Users\Maria\OOP_projects\Laba15\obj\Debug\Laba15.pdb
+C:\Users\Maria\OOP_projects\Laba14\bin\Debug\Laba15.exe.config
+C:\Users\Maria\OOP_projects\Laba14\bin\Debug\Laba15.exe
+C:\Users\Maria\OOP_projects\Laba14\bin\Debug\Laba15.pdb
+C:\Users\Maria\OOP_projects\Laba14\obj\Debug\Laba14.csproj.AssemblyReference.cache
+C:\Users\Maria\OOP_projects\Laba14\obj\Debug\Laba14.csproj.SuggestedBindingRedirects.cache
+C:\Users\Maria\OOP_projects\Laba14\obj\Debug\Laba14.csproj.CoreCompileInputs.cache
+C:\Users\Maria\OOP_projects\Laba14\obj\Debug\Laba15.exe
+C:\Users\Maria\OOP_projects\Laba14\obj\Debug\Laba15.pdb
